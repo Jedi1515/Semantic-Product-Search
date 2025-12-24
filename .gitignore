@@ -1,0 +1,51 @@
+# =========================
+# Python / Virtual Envs
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.env
+.venv/
+venv/
+ENV/
+
+# =========================
+# Jupyter / Colab
+# =========================
+.ipynb_checkpoints/
+*.log
+
+# =========================
+# OS / Editor
+# =========================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# =========================
+# Data (do not version datasets)
+# =========================
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# =========================
+# Artifacts (large, derived files)
+# =========================
+artifacts/*
+!artifacts/README.md
+
+# Explicitly ignore large bundles
+*.zip
+*.npz
+*.npy
+*.joblib
+
+# =========================
+# Temporary / Scratch
+# =========================
+tmp/
+scratch/
